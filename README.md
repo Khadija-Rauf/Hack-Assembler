@@ -1,1 +1,4 @@
 # Hack-Assembler
+<br>Assembler.hack takes a program source code file written in the Hack Assembly Language , which is a .asm text file, and then assembles it into binary machine code (Hack Machine Language)<br>
+<br>First part of this project is converting hack assembly without symbols into machine language. This part firstly ignores all white spaces, indentation , line comments and in-line comments.Then it converts A and C instructions to machine readable language.<br>
+<br>Second part that contains symbols and convert them into machine language. This part is handling predefined symbols that represnt special memory locations like (R0,R1), lable symbols (LOP,START) and v ariable symbols that represent memory locations where the programmer wants to maintain values (i, sum). Other than that this part is also merging first part.<br>
